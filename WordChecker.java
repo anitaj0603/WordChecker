@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 public class WordChecker {
-    public WordChecker() {
-        //TODO Auto-generated constructor stub
-    }
     /** Initialized in the constructor and contains no null elements */
     private ArrayList<String> wordList;
 
@@ -27,8 +24,12 @@ public class WordChecker {
      */
     public ArrayList<String> createList(String target) {
         /* to be implemented in part (b) */ }
-        public WordChecker (ArrayList<String> list)
-    {
-        wordlist = list;
+    public WordChecker(ArrayList<String> list) {
+        wordList = list;
     }
+    public WordChecker(){
+        wordList = new ArrayList<String>();
+
+    }
+    
 }

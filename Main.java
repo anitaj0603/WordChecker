@@ -8,5 +8,6 @@ public class Main {
         words.add("band");
         words.add("abandon");
         WordChecker x = new WordChecker(words);
+        System.out.println(words);
     }
 }
